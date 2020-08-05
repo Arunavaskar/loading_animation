@@ -1,3 +1,13 @@
+form{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -114,7 +124,7 @@ body{
 .center div:nth-child(3) h2{
     animation: text .5s linear forwards;
     animation-delay: 14s;
-    font-size: 80px;
+    font-size: 20px;
 }
 
 @keyframes text {
@@ -209,3 +219,4 @@ body{
     color: #FFF;
     mix-blend-mode:difference;
 }
+
